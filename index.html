@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Python Funfair</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&family=Fredoka:wght@400;600&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Fredoka', 'sans-serif'],
+              comic: ['Comic Neue', 'cursive'],
+              mono: ['JetBrains Mono', 'monospace'],
+            },
+            colors: {
+              funfair: {
+                red: '#FF6B6B',
+                yellow: '#FFD93D',
+                blue: '#4D96FF',
+                green: '#6BCB77',
+              },
+              city: {
+                dark: '#2C3E50',
+                gold: '#F1C40F',
+                brick: '#E74C3C',
+              },
+              logic: {
+                dark: '#2e1065',
+                neon: '#d946ef',
+                light: '#e9d5ff',
+                cyan: '#22d3ee'
+              }
+            }
+          },
+        },
+      }
+    </script>
+    <style>
+      body {
+        font-family: 'Fredoka', sans-serif;
+        background-color: #f0f4f8;
+      }
+      .code-glow {
+        box-shadow: 0 0 15px rgba(77, 150, 255, 0.5);
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "@google/genai": "https://esm.sh/@google/genai@^1.37.0",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
